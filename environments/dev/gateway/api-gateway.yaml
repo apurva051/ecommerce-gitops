@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: api-gateway
-          image: apurva051/ecommerce-api-gateway:11-f4f3bd0
+          image: apurva051/ecommerce-api-gateway:12-aab922a
           imagePullPolicy: Always
 
           ports:

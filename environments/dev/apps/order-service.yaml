@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: apurva051/ecommerce-order-service:11-f4f3bd0
+          image: apurva051/ecommerce-order-service:12-aab922a
           imagePullPolicy: Always
 
           ports:
