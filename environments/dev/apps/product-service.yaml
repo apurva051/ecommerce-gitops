@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: product-service
-          image: apurva051/ecommerce-product-service:10-72dfe2e
+          image: apurva051/ecommerce-product-service:11-f4f3bd0
           imagePullPolicy: Always
 
           ports:

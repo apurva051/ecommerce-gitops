@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: apurva051/ecommerce-user-service:10-72dfe2e
+          image: apurva051/ecommerce-user-service:11-f4f3bd0
           imagePullPolicy: Always
 
           ports:
