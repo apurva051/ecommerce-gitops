@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: apurva051/ecommerce-frontend:8-72dfe2e
+          image: apurva051/ecommerce-frontend:9-72dfe2e
           imagePullPolicy: Always
 
           ports:
