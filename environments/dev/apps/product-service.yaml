@@ -6,7 +6,7 @@ metadata:
   labels:
     app: product-service
 spec:
-  replicas: 1
+  replicas: 2
 
   selector:
     matchLabels:
@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: product-service
-          image: apurva051/ecommerce-product-service:12-aab922a
+          image: apurva051/ecommerce-product-service:1.0
           imagePullPolicy: Always
 
           ports:
