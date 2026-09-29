@@ -51,7 +51,7 @@ metadata:
   name: ecommerce-frontend
   namespace: ecommerce
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: frontend
   ports:
